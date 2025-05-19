@@ -10,4 +10,4 @@ A Streamlit application for emotion recognition using Vision Transformer (ViT) a
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/emotion-ai-app.git
+   git clone https://github.com/HackWGaveesh/emotion-ai-app.git

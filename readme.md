@@ -1,6 +1,6 @@
 # Emotion AI App
 
-A Streamlit application for emotion recognition using Vision Transformer (ViT) and LSTM for future emotion prediction.
+A Streamlit application for emotion recognition using Fine Tuned Vision Transformer (ViT) and LSTM for future emotion prediction.
 
 ## Features
 - Analyze emotions from uploaded images or webcam feed

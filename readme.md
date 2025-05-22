@@ -1,44 +1,44 @@
-#\<img src="Logo.png" alt="Emotion AI Logo" width="50"\> Emotion AI: Real-time Emotion Recognition with Future Prediction 📈
+# <img src="Logo.png" alt="Emotion AI Logo" width="50"> Emotion AI: Real-time Emotion Recognition with Future Prediction
 
-[](https://emotionai-hackwgaveesh.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://emotionai-hackwgaveesh.streamlit.app/)
 
 ## Overview
 
 Emotion AI is an advanced Streamlit web application that performs real-time emotion recognition from images and webcam feeds, and uniquely offers future emotion prediction capabilities. Leveraging a fine-tuned Vision Transformer (ViT) for accurate emotion detection and a Long Short-Term Memory (LSTM) neural network for forecasting emotional trends, this app provides a comprehensive insight into emotional states.
 
-## Features ✨
+## Features
 
-  * **Image-based Emotion Analysis** 📸: Upload an image and get instant emotion probabilities across 8 different categories.
-  * **Real-time Webcam Analysis** 🎥: Utilize your device's camera for live emotion detection and continuous tracking of emotional shifts.
-  * **Future Emotion Prediction** 🔮: An LSTM model learns from your emotional history to predict likely future emotional states.
-  * **Interactive Analytics Dashboard** 📊: Visualize your emotional journey over time with detailed charts, including:
-      * Emotional Journey Timeline (Line Chart) เส้น
-      * Emotion Intensity Heatmap 🔥
-      * Dominant Emotions Distribution (Pie Chart) 🥧
-      * Emotional State Radar Chart 🕸️
-  * **8 Emotion Categories** 😀😡😲😌🤢🤩😨😢: Detects and predicts "amusement", "anger", "awe", "contentment", "disgust", "excitement", "fear", and "sadness".
-  * **Clearable History** 🧹: Option to clear all collected emotion data.
-  * **Downloadable Data** 💾: Export your emotional history as a CSV file for further analysis.
+  * **Image-based Emotion Analysis**: Upload an image and get instant emotion probabilities across 8 different categories.
+  * **Real-time Webcam Analysis**: Utilize your device's camera for live emotion detection and continuous tracking of emotional shifts.
+  * **Future Emotion Prediction**: An LSTM model learns from your emotional history to predict likely future emotional states.
+  * **Interactive Analytics Dashboard**: Visualize your emotional journey over time with detailed charts, including:
+      * Emotional Journey Timeline (Line Chart)
+      * Emotion Intensity Heatmap
+      * Dominant Emotions Distribution (Pie Chart)
+      * Emotional State Radar Chart
+  * **8 Emotion Categories**: Detects and predicts "amusement", "anger", "awe", "contentment", "disgust", "excitement", "fear", and "sadness". [cite: 1]
+  * **Clearable History**: Option to clear all collected emotion data.
+  * **Downloadable Data**: Export your emotional history as a CSV file for further analysis.
 
-## Technologies Used 🛠️
+## Technologies Used
 
-  * **Streamlit**: For creating the interactive web application.
-  * **PyTorch**: Deep learning framework for ViT and LSTM models.
-  * **Hugging Face Transformers**: For the Vision Transformer (ViT) model.
-  * **Pillow (PIL)**: For image processing.
-  * **OpenCV**: For webcam integration.
-  * **Pandas**: For data manipulation and history tracking.
-  * **Plotly**: For rich and interactive data visualizations.
-  * **NumPy**: For numerical operations.
+  * **Streamlit**: For creating the interactive web application. [cite: 1]
+  * **PyTorch**: Deep learning framework for ViT and LSTM models. [cite: 1]
+  * **Hugging Face Transformers**: For the Vision Transformer (ViT) model. [cite: 1]
+  * **Pillow (PIL)**: For image processing. [cite: 1]
+  * **OpenCV**: For webcam integration. [cite: 1]
+  * **Pandas**: For data manipulation and history tracking. [cite: 1]
+  * **Plotly**: For rich and interactive data visualizations. [cite: 1]
+  * **NumPy**: For numerical operations. [cite: 1]
 
-## How it Works 🤔
+## How it Works
 
-1.  **Emotion Detection (ViT)**: A pre-trained Vision Transformer model, fine-tuned for facial emotion classification, processes input images or webcam frames. It outputs probabilities for 8 distinct emotions.
-2.  **Emotional History Tracking**: The detected emotion probabilities are logged with timestamps, creating a continuous emotional history.
-3.  **Future Prediction (LSTM)**: An LSTM neural network is continuously updated with the emotional history. It learns sequences and patterns in your emotional data to predict the probabilities of future emotional states.
-4.  **Interactive Visualization**: Streamlit and Plotly are used to present the current emotions, predicted future emotions, and historical trends through various interactive charts and metrics.
+1.  **Emotion Detection (ViT)**: A pre-trained Vision Transformer model, fine-tuned for facial emotion classification, processes input images or webcam frames. It outputs probabilities for 8 distinct emotions. [cite: 1]
+2.  **Emotional History Tracking**: The detected emotion probabilities are logged with timestamps, creating a continuous emotional history. [cite: 1]
+3.  **Future Prediction (LSTM)**: An LSTM neural network is continuously updated with the emotional history. It learns sequences and patterns in your emotional data to predict the probabilities of future emotional states. [cite: 1]
+4.  **Interactive Visualization**: Streamlit and Plotly are used to present the current emotions, predicted future emotions, and historical trends through various interactive charts and metrics. [cite: 1]
 
-## Setup and Installation 💻
+## Setup and Installation
 
 To run this application locally, follow these steps:
 
@@ -80,22 +80,22 @@ To run this application locally, follow these steps:
 
     The application will open in your default web browser.
 
-## Project Structure 📁
+## Project Structure
 
 ```
 .
 ├── .devcontainer/                # Development container configuration
-├── saved_model/                  # Contains ViTImageProcessor (pre-trained processor)
+├── saved_model/                  # Contains ViTImageProcessor (pre-trained processor) [cite: 1]
 │   └── (processor files)
 ├── Default_image.png             # Default image for demo purposes
 ├── Logo.png                      # Application logo
-├── app.py                        # Main Streamlit application file
-├── emotion_vit_finetuned.pth     # Fine-tuned Vision Transformer model weights
+├── app.py                        # Main Streamlit application file [cite: 1]
+├── emotion_vit_finetuned.pth     # Fine-tuned Vision Transformer model weights [cite: 1]
 ├── readme.md                     # This README file
-└── requirements.txt              # Python dependencies
+└── requirements.txt              # Python dependencies [cite: 1]
 ```
 
-## Usage 🚀
+## Usage
 
 ### Image Analysis Tab
 
@@ -120,13 +120,10 @@ To run this application locally, follow these steps:
 4.  You can view the raw data and download it as a CSV file.
 5.  There's an option to "Clear All History Data" to reset the entire session's emotional data.
 
-## Contributing 🤝
+## Contributing
 
 Contributions are welcome\! If you have suggestions for improvements, new features, or bug fixes, please open an issue or submit a pull request.
 
-## License 📄
-
-This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
 
 -----
 

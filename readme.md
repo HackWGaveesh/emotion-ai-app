@@ -1,6 +1,4 @@
-&lt;img src="Logo.png" alt="Emotion AI Logo" width="50" style="vertical-align: middle;"> Emotion AI: Real-time Emotion Recognition with Future Prediction
-
-# Emotion AI: Real-time Emotion Recognition with Future Prediction
+# <img src="Logo.png" alt="Emotion AI Logo" width="50" style="vertical-align: middle;"> Emotion AI: Real-time Emotion Recognition with Future Prediction
 
 [](https://www.google.com/search?q=https://emotionai-hackwgaveesh.streamlit.app/)
 

@@ -1,4 +1,4 @@
-# \<img src="Logo.png" alt="Emotion AI Logo" width="50"\> Emotion AI: Real-time Emotion Recognition with Future Prediction 📈
+#\<img src="Logo.png" alt="Emotion AI Logo" width="50"\> Emotion AI: Real-time Emotion Recognition with Future Prediction 📈
 
 [](https://emotionai-hackwgaveesh.streamlit.app/)
 
